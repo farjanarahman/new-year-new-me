@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* Banner */
+
+#hero-img{
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 965px;
+}
+.banner-content{
+    float: right;
+    margin-right: 230px;
+    margin-top: 216px;
+    padding-bottom: 166px;
+}
+.banner-title{
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: white;
+}
+.banner-paragraph{
+    padding-bottom: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: white;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+    color: #005FAC;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    float: right;
+} 
+
+/* My failure */
+
+#my-failure{
+    max-width: 1072px;
+    margin: 0 auto;
+    margin-top: 131px;
+    align-items: center;
+}
+.failure-content{
+    float: right;
+    align-items: center;
+    padding-top: 190px;
+}
+.my-failure-title{
+    font-weight: 750;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 24px 0;
+}
+.my-failure-paragraph{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.points p{
+    margin: 8px 0;
+    font-size: 16px;
+}
+.ico{
+    margin-left: 50px;
+}
+
+/* My plans */
+
+#my-plan{
+    margin-top: 239px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    max-width: 1580px;
+    justify-content: center;
+}
+
+.my-plan-title{
+    font-weight: 750;
+    font-size: 40px;
+    line-height: 47px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+.plans{
+    display: flex;
+    align-items: center;
+    margin-left: 230px;
+}
+.web {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 86px ;
+}
+.web h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 16px;
+}
+.web p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color:  #737272;;
+}
+
+/* Bottom banner */
+
+#btm-img{
+    background-image:url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 370px;
+    max-width: 1300px;
+    margin: auto;
+}
+.btm-title{
+    font-weight: 750;
+    font-size: 40px;
+    line-height: 47px;
+    color: white;
+    padding-top: 60px;
+    padding-left: 64px;
+    padding-bottom: 34px;
+}
+.btm-contents{
+    margin: 64px;
+    padding-top: 60px;
+}
+.btm-btn{
+    border: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+    color: #005FAC;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 64px;
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 130px 230px;
+    margin-top: 130px;
+    display: flex;
+}
+footer p{
+    line-height: 26px;
+}
+.f-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+.f-para{
+    margin-bottom: 24px;
+}
+footer img{
+    margin-right: 18px;
+    margin-top: 32px;   
+}
+.f-right{
+    float: right;
+    width: 50%;
+    margin-left: 330px;
+}
+.f-right h3{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 32px;
+}
+.f-right p{
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    width: 325px;
+    padding: 22px;
+}
+.f-left{
+    width: 50%;
+}
+.f-btn{
+    border: none;
+    border-radius: 8px;
+    padding: 20px 25px;
+    color: white;
+    background-color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
